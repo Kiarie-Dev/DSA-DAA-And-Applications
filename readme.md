@@ -12,3 +12,5 @@ helps in so.
    ## Data structures
       These are ways to store data for easy access and modifications. 
       <majorly these repository is greatly influenced and a product of reading CLRS>
+      ![image](https://github.com/user-attachments/assets/e7788d1a-2fe3-4fbe-a6a8-ce5de550a6b7)
+
