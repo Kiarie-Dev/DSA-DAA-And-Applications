@@ -8,6 +8,10 @@ To start off, I would like to iterate on coding a subset of programming. It is n
 data structures and algorithms is integral to it. We should write good code, not just any type of code. And the studying
 the latter helps in so.
 
+!!majorly these repository is greatly influenced and a product of reading CLRS!!
+
+![alt text](images/image.png)
+
 ## So what are they:
 ### Data structures
     These are ways to store data for easy access and modifications. 
@@ -17,6 +21,9 @@ the latter helps in so.
     some value, or set of values, as input and produces some value, or set of values, as
     output in a finite amount of time.
 
-!!majorly these repository is greatly influenced and a product of reading CLRS!!
+WOW! so some input, then the input goes through a well computational procedure and then 
+some output but this must take place in a finite amount of time.
 
-![alt text](images/image.png)
+So key points is memory (for the data in the algorithm) and time.
+
+## considering a common leetcode problem (two sum)
