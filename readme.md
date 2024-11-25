@@ -29,25 +29,26 @@ So key points is memory (for the data in the algorithm) and time.
 ## Considering a common LeetCode problem (Two Sum)
 
 ### Python
-```python
-def two_sum(nums, target):
-    for i in range(len(nums)):
-        for j in range(i):
-            if nums[i] + nums[j] == target:
-                return [i, j]
+
+    def two_sum(nums, target):
+        for i in range(len(nums)):
+            for j in range(i):
+                if nums[i] + nums[j] == target:
+                    return [i, j]
+
 ### C++
-```cpp
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        for (int i = 0; i < nums.size(); ++i) {
-            for (int j = 0; j < i; ++j) {
-                if (nums[i] + nums[j] == target) {
-                    return {i, j}; 
+
+    class Solution {
+    public:
+        vector<int> twoSum(vector<int>& nums, int target) {
+            for (int i = 0; i < nums.size(); ++i) {
+                for (int j = 0; j < i; ++j) {
+                    if (nums[i] + nums[j] == target) {
+                        return {i, j}; 
+                    }
                 }
             }
+            return {}; 
         }
-        return {}; 
-    }
-};
+    };
 
