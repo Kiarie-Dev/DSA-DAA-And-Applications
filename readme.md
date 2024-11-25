@@ -29,15 +29,15 @@ So key points is memory (for the data in the algorithm) and time.
 ## Considering a common LeetCode problem (Two Sum)
 
 ### Python
-'''python
+```python
     def two_sum(nums, target):
         for i in range(len(nums)):
             for j in range(i):
                 if nums[i] + nums[j] == target:
                     return [i, j]
-'''
+```
 ### C++
-'''c++
+```c++
     class Solution {
     public:
         vector<int> twoSum(vector<int>& nums, int target) {
@@ -52,4 +52,4 @@ So key points is memory (for the data in the algorithm) and time.
         }
     };
 
-'''
+```
