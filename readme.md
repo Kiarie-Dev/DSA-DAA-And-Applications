@@ -27,3 +27,26 @@ some output but this must take place in a finite amount of time.
 So key points is memory (for the data in the algorithm) and time.
 
 ## considering a common leetcode problem (two sum)
+
+### python 
+'''python
+def two_sum(nums, target):
+    for i in range(len(nums)):
+        for j in range(i):
+            if nums[i] + nums[j] == target:
+                return [i, j]
+### c++
+'''c++
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        for (int i = 0; i < nums.size(); ++i) {
+            for (int j = 0; j < i; ++j) {
+                if (nums[i] + nums[j] == target) {
+                    return {i, j}; 
+                }
+            }
+        }
+        return {}; 
+    }
+};
