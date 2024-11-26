@@ -30,11 +30,12 @@ So key points is memory (for the data in the algorithm) and time.
 
 ### Python
 ```python
-    def two_sum(nums, target):
-        for i in range(len(nums)):
-            for j in range(i):
-                if nums[i] + nums[j] == target:
-                    return [i, j]
+    class Solution:
+        def two_sum(nums, target):
+            for i in range(len(nums)):
+                for j in range(i):
+                    if nums[i] + nums[j] == target:
+                        return [i, j]
 ```
 ### C++
 ```c++
@@ -52,3 +53,14 @@ So key points is memory (for the data in the algorithm) and time.
         }
     };
 ```
+
+The above code achieves the same thing. Solving a classic problem in leetcode, no. 1
+known as Two Sum. But I am not here to explain leetcode or the solution. I do research
+on algorithms and data structures and their analysis. Wow the above codes run well but apply 
+nested loops. The loops overall using a common analysis way of Big O notation are o(n^2) . 
+Thats expensive on runtime(
+    - Runtime affects user experience, applications that take longer to run are not preferred.
+    [an issue with performance]
+    -It also affects scalability, imagine running above code on large(humongous) datasets.
+    -Unnecessary resource usage hence also high cost. Even in cloud setups, runtime is accounted for
+     so one can pay unnecessary money for such.)
