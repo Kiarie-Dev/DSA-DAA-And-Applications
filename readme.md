@@ -6,9 +6,6 @@ Data Structures and Algorithms with their design, analysis, and applications in 
 
 To start off, I would like to iterate on coding as a subset of programming. The topic of data structures and algorithms is integral to programming, yet often underemphasized. We should write good code, not just any type of code. Studying them helps improve our coding practices.
 
-!!majorly these repository is greatly influenced and a product of reading CLRS!!
-
-![alt text](images/image.png)
 
 ## So what are they:
 ### Data structures
@@ -27,6 +24,10 @@ So key points is memory (for the data in the algorithm) and time.
 This repository explores data structures and algorithms, foundational concepts in computer science, with a focus on their design, analysis, and practical applications. By studying these topics, we not only write correct code but also efficient code that optimizes runtime and memory usage.
 
 Drawing inspiration from the seminal textbook Introduction to Algorithms (CLRS), this repository includes examples, solutions, and discussions aimed at developing a deep understanding of these critical topics.
+
+
+![alt text](images/image.png)
+
 
 Key points covered include:
 
