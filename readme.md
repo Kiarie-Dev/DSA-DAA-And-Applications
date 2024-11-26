@@ -4,9 +4,7 @@ Data Structures and Algorithms with their design, analysis, and applications in 
 
 ## Introduction
 
-To start off, I would like to iterate on coding a subset of programming. It is not emphasized enough that the topic of 
-data structures and algorithms is integral to it. We should write good code, not just any type of code. And the studying
-the latter helps in so.
+To start off, I would like to iterate on coding as a subset of programming. The topic of data structures and algorithms is integral to programming, yet often underemphasized. We should write good code, not just any type of code. Studying them helps improve our coding practices.
 
 !!majorly these repository is greatly influenced and a product of reading CLRS!!
 
@@ -102,10 +100,10 @@ std::vector<int> twoSum(const std::vector<int>& nums, int target) {
 }
 
 ```
-Wow! the above solutions are the same except the language. But in overall they are efficient 
-for the problem as their runtime is 0(n) for the single loop being superior in runtime and the 
-memory now accounted for by the hashmap is constant 0(1) since we only need the memory of the 
-hashmap only which is contant for the problem. Thats now clever. RUNTIME is saved and memory is 
+The above solutions are the same except the language. But in overall they are efficient 
+for the problem as their runtime is O(n) for the single loop being superior in runtime and the 
+memory now accounted for by the hashmap is constant O(1) since we only need the memory of the 
+hashmap only which is contant for the problem. RUNTIME is saved and memory is 
 used well. Our program indeed saves a lot and is very efficient.
 
 Later in detail, I will demonstrate the uses of the hashmap and we will see its relevance in our 
