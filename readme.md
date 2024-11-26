@@ -110,3 +110,6 @@ used well. Our program indeed saves a lot and is very efficient.
 
 That I have demonstrated the importance of the concepts foundational to computer science which are 
 data structures and algorithms with their design and analysis.
+
+A resource just demonstrating big o notation simply.
+![alt text](images/image2.png)
