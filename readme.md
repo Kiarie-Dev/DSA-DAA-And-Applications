@@ -108,8 +108,10 @@ memory now accounted for by the hashmap is constant 0(1) since we only need the 
 hashmap only which is contant for the problem. Thats now clever. RUNTIME is saved and memory is 
 used well. Our program indeed saves a lot and is very efficient.
 
-That I have demonstrated the importance of the concepts foundational to computer science which are 
-data structures and algorithms with their design and analysis.
+Later in detail, I will demonstrate the uses of the hashmap and we will see its relevance in our 
+algorithm. 
+
+With that I have demonstrated the importance of the concepts foundational to computer science which are data structures and algorithms with their design and analysis.
 
 A resource just demonstrating big o notation simply.
 ![alt text](images/image2.png)
