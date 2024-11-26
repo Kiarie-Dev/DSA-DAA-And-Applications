@@ -60,3 +60,45 @@ The above code achieves the same thing, solving a classic problem in LeetCode, n
 - It also affects scalability; imagine running the above code on large (humongous) datasets.
 - Unnecessary resource usage (processors in computers), hence also high cost. Even in cloud setups, runtime is accounted for, so one can pay unnecessary money for such.
 
+A resource on BIG OH notation:
+https://en.wikipedia.org/wiki/Big_O_notation
+
+But there is a clever way to solve the above problem, but before that, we notice that
+the solutions use a complex quadratic runtime but utilise no data structure, so that solution 
+is very good in memory but bad in runtime. It is what problem solvers call a *Brute force solution*
+meaning that we focus on solving the problem and getting the results not giving a consideration on 
+factors like memory and runtime.
+
+### Soln 2: Using a data structure and a well laid out plan(algorithm)
+### Python
+```python
+    class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hash_set = {}
+
+        for i, num in enumerate(nums):
+            complement = target - num
+            if complement in hash_set:
+                return [hash_set[complement], i]
+            else:
+                hash_set[num] = i
+
+```
+### C++
+```c++
+    #include <unordered_map>
+#include <vector>
+
+std::vector<int> twoSum(const std::vector<int>& nums, int target) {
+    std::unordered_map<int, int> hashmap; 
+    for (int i = 0; i < nums.size(); ++i) {
+        int complement = target - nums[i]; 
+        if (hashmap.find(complement) != hashmap.end()) {
+            return {hashmap[complement], i}; 
+        }
+        hashmap[nums[i]] = i; 
+    }
+    return {}; 
+}
+
+```
