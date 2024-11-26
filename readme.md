@@ -19,11 +19,20 @@ To start off, I would like to iterate on coding as a subset of programming. The 
     some value, or set of values, as input and produces some value, or set of values, as
     output in a finite amount of time.
 
-WOW! so some input, then the input goes through a well computational procedure and then 
+So some input(data), then the input goes through a well computational procedure and then 
 some output but this must take place in a finite amount of time.
 
 So key points is memory (for the data in the algorithm) and time.
 
+This repository explores data structures and algorithms, foundational concepts in computer science, with a focus on their design, analysis, and practical applications. By studying these topics, we not only write correct code but also efficient code that optimizes runtime and memory usage.
+
+Drawing inspiration from the seminal textbook Introduction to Algorithms (CLRS), this repository includes examples, solutions, and discussions aimed at developing a deep understanding of these critical topics.
+
+Key points covered include:
+
+The relationship between runtime efficiency and memory usage.
+Real-world implications of algorithm design, such as scalability, resource management, and user experience.
+Using the "Two Sum" problem as an example, I demonstrate how brute-force solutions (O(n²)) can be optimized using data structures like hashmaps (O(n)) to improve both runtime and memory efficiency.
 ## Considering a common LeetCode problem (Two Sum)
 
 ### Python
