@@ -86,7 +86,7 @@ factors like memory and runtime.
 ```
 ### C++
 ```c++
-    #include <unordered_map>
+#include <unordered_map>
 #include <vector>
 
 std::vector<int> twoSum(const std::vector<int>& nums, int target) {
@@ -102,3 +102,11 @@ std::vector<int> twoSum(const std::vector<int>& nums, int target) {
 }
 
 ```
+Wow! the above solutions are the same except the language. But in overall they are efficient 
+for the problem as their runtime is 0(n) for the single loop being superior in runtime and the 
+memory now accounted for by the hashmap is constant 0(1) since we only need the memory of the 
+hashmap only which is contant for the problem. Thats now clever. RUNTIME is saved and memory is 
+used well. Our program indeed saves a lot and is very efficient.
+
+That I have demonstrated the importance of the concepts foundational to computer science which are 
+data structures and algorithms with their design and analysis.
