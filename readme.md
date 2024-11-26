@@ -54,13 +54,9 @@ So key points is memory (for the data in the algorithm) and time.
     };
 ```
 
-The above code achieves the same thing. Solving a classic problem in leetcode, no. 1
-known as Two Sum. But I am not here to explain leetcode or the solution. I do research
-on algorithms and data structures and their analysis. Wow the above codes run well but apply 
-nested loops. The loops overall using a common analysis way of Big O notation are o(n^2) . 
-Thats expensive on runtime(
-    - Runtime affects user experience, applications that take longer to run are not preferred.
-    [an issue with performance]
-    -It also affects scalability, imagine running above code on large(humongous) datasets.
-    -Unnecessary resource usage hence also high cost. Even in cloud setups, runtime is accounted for
-     so one can pay unnecessary money for such.)
+The above code achieves the same thing, solving a classic problem in LeetCode, no. 1 known as Two Sum. But I am not here to explain LeetCode or the solution. I do research on algorithms and data structures and their analysis. While the above codes run well, they apply nested loops. The loops overall, using a common analysis way of Big O notation, are O(n^2). That's expensive on runtime:
+
+- Runtime affects user experience; applications that take longer to run are not preferred.
+- It also affects scalability; imagine running the above code on large (humongous) datasets.
+- Unnecessary resource usage (processors in computers), hence also high cost. Even in cloud setups, runtime is accounted for, so one can pay unnecessary money for such.
+
