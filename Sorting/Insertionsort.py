@@ -12,5 +12,5 @@ def insertionSort(Arr):
 
 # Example usage
 Arr = [5, 2, 4, 6, 1, 3]
-insertionSort(Arr, n)
+insertionSort(Arr)
 print("Sorted array is: ", Arr)
